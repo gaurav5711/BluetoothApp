@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <ListView
+            android:id="@+id/lst_paired"
+            android:layout_width="match_parent"
+            android:layout_height="174dp">
+    </ListView>
+
+    <Button
+            android:id="@+id/button_scan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan"/>
+
+    <ListView
+            android:id="@+id/lst_active"
+            android:layout_width="match_parent"
+            android:layout_height="156dp">
+    </ListView>
+
+    <TextView
+            android:id="@+id/txtreading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.32"
+            android:text="Readings expected"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+    <TextView
+            android:id="@+id/txtgesture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.32"
+            android:text="Gestures expected"
+            android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</LinearLayout>
+
